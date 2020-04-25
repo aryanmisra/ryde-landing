@@ -77,10 +77,10 @@ body {
     background: linear-gradient(to right, #4834d4, #341f97);
 }
 .darker-blue{
-    background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
+    background: linear-gradient(180deg,#d8dbe2 0,#f5f5f5 25%,#d8dbe2 40%,#f5f5f5 65%,#d8dbe2);
 }
 .darker-blue-ng{
-    background: #0f0240;
+    background: #484c55;
 }
 h1,
 h2,
@@ -89,7 +89,7 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: #202b42;
     line-height: 1.4;
     font-weight: 500;
 }
@@ -110,7 +110,7 @@ li {
 
 p {
     line-height: 1.9;
-    color: rgba(255, 255, 255, 0.5);
+    color: #202b42;
     font-size: 15px;
 }
 
@@ -495,7 +495,7 @@ ol {
 }
 
 .section-heading h2 {
-    font-size: 36px;
+    font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 15px;
 }
@@ -695,7 +695,7 @@ ol {
 .header-area.sticky {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background-color: #281b87;
+    background-color: #d8dbe2;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
     border-bottom: none;
 }
@@ -711,11 +711,6 @@ ol {
 
 .classynav ul li a {
     text-transform: uppercase;
-    font-size: 15px;
-}
-
-.classynav ul li a:hover {
-    font-size: 16px;
 }
 
 .classynav ul li .megamenu li a {
@@ -750,7 +745,7 @@ ol {
     background: transparent;
 }
 .hero-content.dark-blue{
-    background: rgb(33, 0, 67, 0.9);
+    background: #d8dbe2;
 }
 .hero-content .ico-counter{
     margin: 100px 7% 0;
@@ -1008,7 +1003,7 @@ ol {
     margin-bottom: 20px;
 }
 .welcome-content h1 {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -1017,7 +1012,7 @@ ol {
 }
 .welcome-content p {
     font-size: 18px;
-    color: #fff;
+    color: #484c55;
     margin-bottom: 30px;
 } 
 
@@ -1427,7 +1422,7 @@ p.artficial:before{
 }
 
 .services-block-four .inner-box h3 a{
-  color: #fff;
+  color: #484c55;
   transition:all 0.3s ease;
   -moz-transition:all 0.3s ease;
   -webkit-transition:all 0.3s ease;
@@ -1444,7 +1439,7 @@ p.artficial:before{
 
 .services-block-four .inner-box .text{
   font-size:14px;
-  color:#a592b4;
+  color:#484c55;
   margin-top:8px;
   margin-bottom:10px;
 }
@@ -2543,7 +2538,7 @@ p.artficial:before{
 .team-info h5 {
     color: #7057f9;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -3482,12 +3477,8 @@ textarea:required {
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     margin-bottom: 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-weight: 500;
-}
-
-.dream-faq-area dt:hover {
-    opacity: 0.9;
 }
 
 .dream-faq-area dt:first-child {
@@ -3498,10 +3489,6 @@ textarea:required {
     margin: 0;
     padding: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-#faq a:hover {
-    text-decoration: underline;
 }
 
 /* ##### Button Effects ##### */
