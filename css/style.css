@@ -64,6 +64,11 @@
 ====================================================================
 
 ***/
+
+img.centered {
+    border-radius: 250px;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -817,7 +822,7 @@ ol {
 
 .main-ilustration{
     position: relative;
-    background: url(../images/demo.png) no-repeat center 65%;
+    background: url(../assets/images/av.png) no-repeat center 65%;
     height: 100vh;
     background-size: contain;
 }
