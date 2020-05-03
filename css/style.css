@@ -2953,9 +2953,24 @@ textarea:required {
     padding: 0;
 }
 .footer-content-area{
-    padding: 80px 0;
-    margin-top: 100px
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #202b42;
 }
+
+.footer-content-area p {
+    color: white;
+    opacity: 0.9;
+}
+
+.footer-content-area p:hover {
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .footer-logo{
     margin-bottom: 15px
 }
