@@ -716,6 +716,11 @@ ol {
 
 .classynav ul li a {
     text-transform: uppercase;
+    font-size: 15px;
+}
+
+.classynav ul li a:hover {
+    font-size: 16px;
 }
 
 .classynav ul li .megamenu li a {
@@ -1381,11 +1386,16 @@ p.artficial:before{
   display:none;
 }
 
-.services-block-four .inner-box h3{
+.services-block-four .inner-box h3 {
   position:relative;
   font-size:18px;
   font-weight:600;
   text-transform:capitalize;
+}
+
+.services-block-four .inner-box h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .services-block-four.how .inner-box{
@@ -2541,20 +2551,26 @@ p.artficial:before{
 }
 
 .team-info h5 {
-    color: #7057f9;
+    color: black;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 0px;
 }
 
+.team-info h5:hover {
+    opacity: 0.75;
+}
+
 .team-info p {
-    color: #a592b4;
-    text-transform: uppercase;
-    font-size: 13px;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 11px;
+    opacity: 0.5;
     margin-bottom: 0;
     text-align: center;
 }
+
 .team-social-icon{
     text-align: center;
 }
@@ -3485,6 +3501,14 @@ textarea:required {
     color: rgb(0, 0, 0);
     font-weight: 500;
 }
+
+.dream-faq-area dt:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+
 
 .dream-faq-area dt:first-child {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
