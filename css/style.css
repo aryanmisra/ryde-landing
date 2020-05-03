@@ -530,6 +530,12 @@ ol {
     transform: rotate(-90deg);
 }
 
+#scrollUp:hover {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
 #scrollUp:before {
     position: absolute;
     width: 30%;
